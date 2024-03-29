@@ -1,0 +1,44 @@
+/* Aboutus.css */
+
+body {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font for the entire body */
+    text-align: center; /* Center-align text */
+    background-color: #f0f0f0; /* Set a light background color */
+  }
+  
+  img {
+    display: block; /* Make the image a block element to center it */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 250px; /* Set the width of the image */
+    max-width: 100%; /* Ensure the image does not exceed its original size */
+    height: auto; /* Maintain the aspect ratio of the image */
+  }
+  
+  #about-us {
+    width: 80%; /* Increase the width of the main content area */
+    margin: 0 auto; /* Center-align the main content */
+    padding: 20px; /* Add some padding around the main content */
+    background-color: #f9f9f9; /* Set a light background color */
+    border-radius: 10px; /* Add rounded corners to the main content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the main content */
+  }
+  
+  h1, h2, h3 {
+    font-size: 28px; /* Increase font size for headings */
+    color: #008080; /* Teal Green color for headings */
+  }
+  
+  p {
+    font-size: 18px; /* Increase font size for paragraphs */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Increase line height for better readability */
+  }
+  
+  .team-member {
+    margin-bottom: 20px; /* Add some space between team member sections */
+  }
+  
+  footer {
+    margin-top: 40px; /* Add some space between the main content and the footer */
+  }
+  

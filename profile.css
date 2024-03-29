@@ -1,0 +1,149 @@
+body{
+  font-family: "poppins";
+  background-color:  #F4FEFF;
+}
+.navbar{
+  display: flex;
+  margin: 20px;
+  /* position: fixed; */
+}
+.navin{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#space{
+  width: 900px;
+}
+#logo{
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 30px; 
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  margin: 5px;
+  font-family: "Poppins", Gadget, sans-serif;
+  font-size: 20pt;
+  font-size: 0; /* Set font size to 0 to hide text */
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff; /* Text color changed to white */
+  border: none; /* Removed border */
+  width: 150px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #56E0E0 0%, #02607E 51%, #75E6DA 100%);
+  /* Added gradient background */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  /* Removed duplicate box-shadow property */
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  /* Removed duplicate transition property */
+}
+.button::after {
+  content: 'Register'; /* Add text content after pseudo-element */
+  font-weight: bold;
+  font-size: 15px; /* Set font size for pseudo-element */
+}
+.button:hover {
+  box-shadow: 0 10px 20px rgba(138, 30, 30, 0.19), 0 6px 6px rgba(14, 91, 82, 0.23);
+  margin: 8px 10px 12px;
+  background-position: right center; /* Added gradient transition on hover */
+}
+
+.main {
+  text-align: left; /* Center-align the content */
+  margin-top: 50px; /* Add some top margin for spacing */
+}
+
+.main p {
+  font-size: 30px; /* Set the font size for the paragraph */
+  line-height: 1.6; /* Set the line height for better readability */
+  font-weight: bold;
+  
+}
+.content{
+display: flex;
+align-items: center;
+
+height: 800px;
+
+}
+.menu{
+  text-align: center;
+  width:25%;
+  height: 90%;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+
+}
+
+
+.menu h1 {
+  margin-top: 10px;
+}
+
+.menu a {
+  
+  margin-top: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+  
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:90%;
+  height: 90%;
+  font-size: 25px;
+  
+}
+
+
+
+
+.profile p {
+  margin: 5px 0;
+  padding: 10px 10px 10px 10px;
+}
+.profile_img{
+  background-image: url("Ellipse21.png");
+  width: 118px;
+  height: 118px;
+  
+}
+.profile_in{
+ 
+  border: 2px solid #56E0E0;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 80%;
+  height: 60%
+  
+  
+}
+
+.profile_in p {
+  margin-left: 40px;
+  margin-top: 20px;
+  
+}

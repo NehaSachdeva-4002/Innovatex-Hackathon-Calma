@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Registration Form</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .container button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #56E0E0;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .container button[type="submit"]:hover {
+            background-color: #02607E;
+        }
+
+        .button {
+            margin: 10px;
+            font-family: "Arial Black", Gadget, sans-serif;
+            font-size: 0;
+            padding: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #fff;
+            border: none;
+            width: 200px;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 25px;
+            background-image: linear-gradient(to right, #56E0E0 0%, #02607E 51%, #75E6DA 100%);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+
+        .button::after {
+            content: 'Login';
+            font-size: 20px;
+        }
+
+        .button:hover {
+            box-shadow: 0 10px 20px rgba(138, 30, 30, 0.19), 0 6px 6px rgba(14, 91, 82, 0.23);
+            margin: 8px 10px 12px;
+            background-position: right center;
+        }
+
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Account</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <button class="button" type="submit">Register</button>
+        </form>
+    </div>
+    <div class="center">
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html>

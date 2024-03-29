@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 150px;
+            align-items: center; /* Center items horizontally */
+            text-align: center; 
+            border: 3px solid #ccc; /* Add border to flex container */
+            padding: 25px; /* Add padding for spacing */
+            border-radius: 10px; 
+            width: 95% ;
+            margin-left: 15px;
+            
+            
+            
+        }
+        .image-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+            text-align: center; /* Center-align text */
+            margin: 0 10px; /* Add some space between the forms */
+            border-radius: 10px; /* Adding rounded borders to the form */
+            justify-content: center;
+    
+        }
+        .image-container input[type="image"] {
+            border-radius: 10px; 
+            overflow: hidden; 
+            width: 400px;
+            height: auto;
+            transition: transform 0.3s ease;
+            
+        }
+        .image-container img {
+            border-radius: 10px; 
+            overflow: hidden; 
+            width: 400px;
+            height: auto;
+            transition: transform 0.3s ease;
+            
+        }
+        .image-container input[type="image"]:hover {
+            transform: scale(1.1);
+        }
+        .image-container p {
+            margin-top: 20px; 
+            text-align: center; /* Center-align the text */
+            font-family: Arial, sans-serif;
+            font-size: larger;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        
+        <form action="">        
+            <a href="sound meditation.html" target="_blank">
+                <img src="meditation.jpg">
+            </a>
+            <p>Meditation</p>
+
+        </form>
+        <form action="">
+            <a href="mood tracker.html" target="_blank">
+                <img src="mood tracker.avif">
+            </a>
+            <p>Mood Tracker</p>
+        </form>
+        <form action="">
+            <a href="breathing.html" target="_blank">
+                <img src="breathing.jpg">
+            </a>
+
+            <p>Breathing Exercise</p>
+        </form>
+    </div>
+</body>
+</html>

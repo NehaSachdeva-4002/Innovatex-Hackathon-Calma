@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questionnaire</title>
+<style>
+    body {
+        background: linear-gradient(to bottom, #bfd8d5, #dcebaa);
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.9); /* Added to create a semi-transparent white background for better readability */
+        padding: 20px;
+        border-radius: 10px; /* Added for aesthetics */
+    }
+    .question {
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Questionnaire</h1>
+    <h4>Please answer this questionnaire in order to allow us to give you a more personalized experience</h4>
+    <form action="#" method="post">
+        <div class="question">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="question">
+            <label for="age">Age:  </label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="question">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q1">Ques 1: Have you been officially diagnosed with a mental health disorder</label><br>
+            <input type="radio" id="q1a" name="q1" value="a">
+            <label for="q1a">Yes</label><br>
+            <input type="radio" id="q1b" name="q1" value="b">
+            <label for="q1b">No</label><br>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 2: How often do you experience feelings of anxiety or worry?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Rarely or never</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Occasionaly</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Frequently</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Almost Constantly</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 3: How would you describe your mood most of the time?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Generally happy and content</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Fluctuating, with highs and lows</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Consistently low or depressed</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Anxious or on edge</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 4: How would you rate your quality of sleep?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Excellent - I sleep soundly throughout the night</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Okay - I sometimes have trouble falling asleep or staying asleep</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Poor - I often struggle with insomnia or restless sleep</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Very poor - I rarely get a good night's sleep</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 5: Have you ever experienced symptoms of depression, such as sadness, loss of interest, or hopelessness?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">No, never</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Yes, occasionaly</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Yes, frequently</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Yes, constantly</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 6: How would you describe your stress levels on a typical day?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Low - I generally feel relaxed and in control</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Moderate - I experience some stress but can manage it effectively</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">High - I often feel overwhelmed by stress</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Extremely high - Stress significantly impacts my daily life</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 7: Do you struggle with intrusive thoughts or compulsive behaviors?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">No, not at all</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Occasionaly</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Frequently</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Almost Constantly</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 8: Have you ever experienced symptoms of post-traumatic stress disorder (PTSD), such as flashbacks, nightmares, or hypervigilance?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">No, not at all</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Yes, in the past</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Yes, currently</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Yes, frequently and severely</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 9: How would you rate your overall satisfaction with your social relationships?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Very satisfied - I have strong, supportive relationships</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Moderately satisfied - I have some good relationships but could use more support</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Dissatisfied - I often feel isolated or disconnected from others</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Very dissatisfied - I feel completely alone and unsupported</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 10: Do you have difficulty concentrating or staying focused on tasks?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">No, not at all</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Occasionaly</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Frequently</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Constantly - It significantly impacts my daily functioning</label>
+        </div>
+        <div class="question">
+            <label for="q2">Ques 11: How motivated do you feel to seek help or support for your mental health?</label><br>
+            <input type="radio" id="q2a" name="q2" value="a">
+            <label for="q2a">Very motivated - I am actively seeking help and support</label><br>
+            <input type="radio" id="q2b" name="q2" value="b">
+            <label for="q2b">Moderately motivated - I am considering seeking help but haven't taken action yet</label><br>
+            <input type="radio" id="q2c" name="q2" value="c">
+            <label for="q2c">Somewhat motivated - I know I need help but feel unsure or hesitant about seeking it</label><br>
+            <input type="radio" id="q2d" name="q2" value="d">
+            <label for="q2d">Not motivated - I don't believe help or support would make a difference</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
